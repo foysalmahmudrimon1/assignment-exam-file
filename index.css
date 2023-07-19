@@ -1,0 +1,85 @@
+
+#icon{color: #F948B2;}
+nav>img{height: 20px; width: 15; margin: 15px; margin-right: -70px; }
+
+.icon-name{display: flex; background-color:white; justify-content: space-evenly;}
+.game{margin-right:  250px; font-weight: bolder;}
+
+ul>li{list-style: none; margin: 5px; font-size: x-small;}
+.manus{display: flex; justify-items: center; }
+#follow{background-color: gray; padding: 5px;}
+div>img{height: 300px; width: 340px; }
+
+
+.body-images{display: flex; justify-content: space-between;   margin: 2%;
+    position: relative;}
+    .whole{background-color: beige; width: 841px; margin-left: -6px;}
+
+    #first{padding-right:  30px ; }
+
+#second{margin-right: 50px;}
+
+.group-text{  position: absolute ;
+    top:10px;
+    left: 80px; }
+
+    #first-text{ color:#0B0223; font-family: 'Work Sans'; word-spacing:-3px; font-size: x-large;}
+
+    #second-text{color: #BE50D3; font-size:45px;font-weight: bolder;font-family: 'Work Sans'; margin-top: -20px;}
+
+    #third-text{font-size: x-small; margin-top: -15px;}
+
+    #fourth-text{ font-size: x-small;}
+    #fifth-text{font-size:x-small;}
+
+
+#third-text, #forth-text{margin-top: -35px;}
+
+
+    .btn-one{ color: white ;font-size:8px;background-color:#F948B2; border: none; border-radius: 15px;height: 27px; width: 75px;} 
+
+
+.btn-two{color: white ;font-size:8px;background-color: #4ec5f7;border: none; border-radius: 15px;height: 27px; width: 80px;}
+
+
+/*main section*/
+
+.funny-text{text-align: center; margin-top:60px;}
+#you{color: blueviolet;}
+#line-two{font-size: x-small; margin-top: -10px; font-weight: 2px;}
+
+.cart{display: flex; justify-content: center; }
+.cart>img{flex-direction: row; height: 175px; width: 150px; margin: 5px;}
+
+
+.discription{display: flex; }
+.discription>p{font-size: small ; margin-left: 30px; padding: 10px; }
+#apple{margin-left: 100px; max-width: 140px; margin-top: -7px;}
+#orange{margin-left: -6px; margin-top: -8px;}
+#mango{margin-left: -18px; margin-top: -8px;}
+#bananna{margin-top: -10px;}
+
+
+
+
+.hero{display: flex;}
+.mini{padding: 120px; margin-top: -30px;}
+
+div.single>img{position: absolute; height: 150px; width: 130px; padding-left: 440px; margin-top: -215px;}
+div>.cartoon>img{width: 280px; height: 310px; margin-right: 40px;}
+#sap{color: #F948B2; font-size: x-large; font-family: 'work sans';}
+#bang{ font-size:30px; margin-top: -17px;}
+
+
+/*footer*/
+
+
+
+.black{ background-color:navy; width:195vh; margin-left: -8px;}
+
+.ses{display: flex; align-items: center; justify-content: center; gap: 5px; padding-top: 40px;}
+
+
+.ses>img{height: 25px; width: 40px; ;} 
+
+.items{display: flex; justify-content: center;color: white;} 
