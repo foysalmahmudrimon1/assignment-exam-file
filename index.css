@@ -155,4 +155,53 @@ div>.cartoon>img{width: 280px; height: 310px; margin-right: 40px;}
 .fiinish{display: flex; flex-direction: row;}
 
 .whole{width: 335px;}
+
+
 }
+
+@media screen  and (min-width:576px) and(max-width:992px){
+
+
+    .manus{ display: grid; margin-left: -500px; margin-top: 50px;}
+
+    .body-images{display: grid; justify-content: left;}
+    .icon-name{padding-left:  -10px;}
+
+
+    .cart{display: grid;  grid-template-columns: repeat(2,20px); }
+    
+    .discription{display: grid; text-align: center;}
+
+.hero{display: grid; justify-content: left;}
+
+
+.hero>.cartoon>img{height: 220px; width:200px; margin-left:70px; margin-bottom: 40px;}
+
+.poop{display: none;}
+
+.role{margin-left: 10px; margin-top: 20px;}
+
+
+.up{margin-top: 50px; margin-bottom:50px;}
+
+.mini{display: grid; word-spacing: 10px;}
+
+.single>img{position: absolute; margin-left: -435px; padding-top: 60px;}
+
+footer>.black{width: 100px;}
+
+.items{display: grid; grid-template-columns: repeat(3,70px); }
+
+.svgs{display: grid; grid-template-columns: repeat(3,40px);}
+
+.fiinish{display: flex; flex-direction: row;}
+
+.whole{width: 600px;}
+
+
+    
+}
+
+
+
+
