@@ -68,13 +68,21 @@ div>img{height: 300px; width: 340px; }
 
 
 
-.hero{display: flex;}
-.mini{padding: 120px; margin-top: -30px;}
+.hero{display: flex;   ;
+    justify-content: center;
 
-div.single>img{position: absolute; height: 150px; width: 130px; padding-left: 440px; margin-top: -215px;}
-div>.cartoon>img{width: 280px; height: 310px; margin-right: 40px;}
+    margin-bottom: 80px;}
+
+.mini{padding: 120px; margin-top: -30px;}
+.mini>p {
+    padding: 20px;
+    margin-right: 50px;
+    width: 300px;}
+
+div>.cartoon>img{margin-right: 40px; height: 300px; width: 200px;}
 #sap{color: #F948B2; font-size: x-large; font-family: 'work sans';}
-#bang{ font-size:30px; margin-top: -17px;}
+#bang{ font-size:30px; margin-top: -16px; ;}
+#kumir{margin-top: -20px;}
 
 
 
