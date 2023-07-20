@@ -13,7 +13,7 @@ div>img{height: 300px; width: 340px; }
 
 .body-images{display: flex; justify-content: space-between;   margin: 2%;
     position: relative;}
-    .whole{background-color: beige; width: 841px; margin-left: -6px;}
+.whole{background-color: beige; margin-left: -6px;}
 
     #first{padding-right:  30px ; }
 
