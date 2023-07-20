@@ -1,69 +1,88 @@
 
-#icon{color: #F948B2;}
-nav>img{height: 20px; width: 15; margin: 15px; margin-right: -70px; }
+#icon{color: #F948B2; }
+nav>img{height: 28px; width: 60px; margin-top: 35px; margin-left: 100px;}
 
 .icon-name{display: flex; background-color:white; justify-content: space-evenly;}
-.game{ font-weight: bolder;}
 
-ul>li{list-style: none; margin: 5px; font-size: x-small;}
+
+
+.game{ font-weight: bolder; font-size: xx-large; margin-right: 600px;}
+
+ul>li{list-style: none; margin: 8px;}
 .manus{display: flex; justify-items: center; }
-#follow{background-color: gray; padding: 5px;}
-div>img{height: 300px; width: 340px; }
 
+ #second >img{width: 450px; margin-bottom: 300px;  margin-right: 100px; margin-top: 20px;}
+ #first>img{width:610px;height: 500px; margin-top: -50px;}
 
 .body-images{display: flex; justify-content: space-between;   margin: 2%;
     position: relative;}
-.whole{    background-color: beige;
+.whole{  background-color: #F1F8F2;
     margin-left: -6px;
-    margin-top: -15px;}
+    margin-top: -15px;
+    padding-top: 30px;
+  height: 470px;
 
-    #first{padding-right:  30px ; }
 
-#second{margin-right: 50px;}
+}
+
+
 
 .group-text{    position: absolute;
-    top: 10px;
+top: 10px;
+margin-top: -25px;
     left: 80px;
-    padding-top: 40px;  }
+    padding-top: 100px; 
+margin-left: 80px;
+}
 
-    #first-text{ color:#0B0223; font-family: 'Work Sans'; word-spacing:-3px; font-size: x-large;}
+    #first-text{ color:#0B0223; font-family: 'Work Sans'; word-spacing:-3px; font-size: xx-large;}
 
-    #second-text{color: #BE50D3; font-size:45px;font-weight: bolder;font-family: 'Work Sans'; margin-top: -20px;}
+    #second-text{color: #BE50D3; font-size:60px;font-weight: bolder;font-family: 'Work Sans'; margin-top: -20px;}
 
-    #third-text{font-size: x-small; margin-top: -15px;}
+    #third-text{ margin-top: -50px;}
 
-    #fourth-text{ font-size: x-small;}
-    #fifth-text{font-size:x-small;}
+    #fourth-text{ }
+    #fifth-text{;}
 
 
 #third-text, #forth-text{margin-top: -35px;}
 
 
-    .btn-one{ color: white ;font-size:8px;background-color:#F948B2; border: none; border-radius: 15px;height: 27px; width: 75px;} 
+    .btn-one{ color: white ;font-size:12px;background-color:#F948B2; border: none; border-radius: 20px;height: 35px; width: 100px;} 
 
 
-.btn-two{color: white ;font-size:8px;background-color: #4ec5f7;border: none; border-radius: 15px;height: 27px; width: 80px;}
+.btn-two{color: white ;font-size:12px;background-color: #4ec5f7;border: none; border-radius: 20px;height: 35px; width:100px;}
 
 
 /*main section*/
 
-.funny-text{text-align: center; margin-top:60px;}
+.funny-text{text-align: center; margin-top:80px;  margin-bottom: 30px;}
 #you{color: blueviolet;}
-#line-two{font-size: x-small; margin-top: -10px; font-weight: 2px;}
+#line-two{ font-size: small; margin-top: -10px; font-weight: 2px;}
 
-.cart{display: flex; justify-content: center; }
-.cart>img{flex-direction: row; height: 175px; width: 150px; margin: 5px;}
+
+
+.cart{display: flex; justify-content: center;}
+.cart>img{flex-direction: row;
+    height: 275px;
+    width: 232px;
+    margin: 15px;
+}
+
+
 
 
 .discription{display: flex; 
-    gap: 60px;
-    margin-left: -80px;
-    padding-top: 10px; }
-.discription>p{font-size: small ; }
-#apple{margin-left: 100px; max-width: 140px; margin-top: -7px;}
-#orange{margin-left: -6px; margin-top: -8px;}
-#mango{margin-left: -18px; margin-top: -8px;}
-#bananna{margin-top: -10px;}
+    gap: 80px;
+    height: 2px;
+    width:1000px;
+   margin-top: -22px;
+ 
+margin-left: 120px;}
+    
+.discription>.p{}
+
+
 
 
 
@@ -71,7 +90,7 @@ div>img{height: 300px; width: 340px; }
 .hero{display: flex;   ;
     justify-content: center;
 
-    margin-bottom: 80px;}
+    margin-bottom: 80px; margin-top: 150px;}
 
 .mini{padding: 120px; margin-top: -30px;}
 .mini>p {
@@ -79,7 +98,18 @@ div>img{height: 300px; width: 340px; }
     margin-right: 50px;
     width: 300px;}
 
-div>.cartoon>img{margin-right: 40px; height: 300px; width: 200px;}
+div>.cartoon>img{margin-right: 40px; height:450px; width:420px;}
+
+.single>img{height: 240px;
+width: 210px;
+position: absolute;
+margin-left: 610px;
+margin-top: -270px;
+
+
+
+}
+
 #sap{color: #F948B2; font-size: x-large; font-family: 'work sans';}
 #bang{ font-size:30px; margin-top: -16px; ;}
 #kumir{margin-top: -20px;}
@@ -87,14 +117,14 @@ div>.cartoon>img{margin-right: 40px; height: 300px; width: 200px;}
 
 
 
-.up{display: flex; justify-content: center; gap: 20px; font-size:x-small; align-content: center;}
-.up>div>img{width: 25px; height: 25px; margin-bottom: -7px;}
+.up{display: flex; justify-content: center; gap: 70px; align-content: center; margin-bottom: 50px;}
+.up>div>img{width: 40px; height: 40px; margin-top: 50px; margin-bottom: -10px;}
 
 
 
-.role{display: flex; justify-content: center; gap: 20px; font-size: x-small; margin-top: 18px; margin-bottom: 60px;}
+.role{display: flex; justify-content: center; gap: 70px; margin-top: 18px; margin-bottom: 60px;}
 
-.role>div>img{width: 25px; height: 25px; margin-bottom: -7px;}
+.role>div>img{width: 40px; height: 40px;margin-bottom: -10px;}
 .role>.border{ }
 
 
@@ -108,26 +138,32 @@ div>.cartoon>img{margin-right: 40px; height: 300px; width: 200px;}
 
 
 
-.black{ background-color:navy; margin-left: -8px;}
+.black{ background-color:navy; margin-left: -8px; padding-bottom: 30px;}
 
 .ses{display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;}
 
 
-.ses>img{height: 18px; width: 38px; ;} 
-#poo{color: #F948B2;}
-#loo{color: white; font-size: large; font-weight: bolder;}
-.items{display: flex; justify-content: center;color: white; gap: 20px; margin-left: -25px;} 
+.ses>img{height: 27px; width: 57px; ;} 
 
+
+#poo{color: #F948B2;}
+
+
+#loo{color: white; font-size: xx-large; font-weight: bolder;}
+
+
+.items{display: flex; justify-content: center;color: white; gap: 25px; margin-left: -25px;} 
+.items>li{font-size: 15px;}
 
 
 .svgs{display: flex; justify-content: center; gap: 25px;}
-.svgs>img{height: 22px; width: 22px;}
+.svgs>img{height: 30px; width: 30px;}
 
 
 
-.finish{display: flex; justify-content: center; gap: 10px; font-size: x-small; margin-top: 20px;}
+.finish{display: flex; justify-content: center; gap: 30px; font-size:small; margin-top: 20px; color: gray;}
 
-.copy{text-align: center; font-size: x-small; margin-top: -8px; padding-bottom: 50px;}
+.copy{text-align: center; font-size: small; margin-top: -8px; padding-bottom: 50px; color: gray;}
 
 
 
