@@ -3,7 +3,7 @@
 nav>img{height: 20px; width: 15; margin: 15px; margin-right: -70px; }
 
 .icon-name{display: flex; background-color:white; justify-content: space-evenly;}
-.game{margin-right:  250px; font-weight: bolder;}
+.game{ font-weight: bolder;}
 
 ul>li{list-style: none; margin: 5px; font-size: x-small;}
 .manus{display: flex; justify-items: center; }
@@ -13,15 +13,18 @@ div>img{height: 300px; width: 340px; }
 
 .body-images{display: flex; justify-content: space-between;   margin: 2%;
     position: relative;}
-.whole{background-color: beige; margin-left: -6px;}
+.whole{    background-color: beige;
+    margin-left: -6px;
+    margin-top: -15px;}
 
     #first{padding-right:  30px ; }
 
 #second{margin-right: 50px;}
 
-.group-text{  position: absolute ;
-    top:10px;
-    left: 80px; }
+.group-text{    position: absolute;
+    top: 10px;
+    left: 80px;
+    padding-top: 40px;  }
 
     #first-text{ color:#0B0223; font-family: 'Work Sans'; word-spacing:-3px; font-size: x-large;}
 
@@ -52,8 +55,11 @@ div>img{height: 300px; width: 340px; }
 .cart>img{flex-direction: row; height: 175px; width: 150px; margin: 5px;}
 
 
-.discription{display: flex; }
-.discription>p{font-size: small ; margin-left: 30px; padding: 10px; }
+.discription{display: flex; 
+    gap: 60px;
+    margin-left: -80px;
+    padding-top: 10px; }
+.discription>p{font-size: small ; }
 #apple{margin-left: 100px; max-width: 140px; margin-top: -7px;}
 #orange{margin-left: -6px; margin-top: -8px;}
 #mango{margin-left: -18px; margin-top: -8px;}
@@ -94,7 +100,7 @@ div>.cartoon>img{width: 280px; height: 310px; margin-right: 40px;}
 
 
 
-.black{ background-color:navy; width:195vh; margin-left: -8px;}
+.black{ background-color:navy; margin-left: -8px;}
 
 .ses{display: flex; align-items: center; justify-content: center; gap: 10px; padding-top: 40px;}
 
