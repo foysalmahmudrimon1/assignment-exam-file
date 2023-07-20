@@ -79,6 +79,9 @@ margin-left: 80px;
 }
 
 
+.cart>img:hover{transition: .2s;  opacity: 0; }
+
+
 
 
 .discription{display: flex; 
@@ -179,22 +182,39 @@ margin-top: -270px;
 
 @media screen and (max-width:576px) {
     
-    .manus{ display: grid; margin-left: -500px; margin-top: 50px;}
+    .manus{ display: grid; margin-top: 10px; margin-right: 515px;}
 
-    .body-images{display: grid; justify-content: left;}
-    .icon-name{padding-left:  -10px;}
+   
+    .icon-name{ margin-left:500px; display:  grid;}
+.game{margin-left: 75px;}
 
 
-    .cart{display: grid;  }
+
+.body-images{display: grid;}
+#first, #second{ align-items: center;}
+
+
+.funny-text{text-align: center;  margin-top: 500px; }
+
+    .cart{display: grid; margin-top: 20px }
+
+
+
+
+
+
+
+
+
     
-    .discription{display: grid; text-align: center;}
+    .discription{display: grid; grid-template-columns: repeat(4,20px);padding-right: 20px;}
 
 .hero{display: grid; justify-content: left;}
 
 
-.hero>.cartoon>img{height: 220px; width:200px; margin-left:70px; margin-bottom: 40px;}
+.hero>.cartoon>img{height: 310px; width:310px; margin-left:100px; margin-bottom: 40px;}
 
-.poop{display: none;}
+.single>img{height: 180px; width: 150px; margin-left: -1px;}
 
 .role{margin-left: 10px; margin-top: 20px;}
 
@@ -203,10 +223,10 @@ margin-top: -270px;
 
 .mini{display: grid; word-spacing: 10px;}
 
-.single>img{position: absolute; margin-left: -435px; padding-top: 60px;}
 
 
-.black{width:340px;} 
+
+.black{width:500px;} 
 .items{display: grid; grid-template-columns: repeat(3,70px); }
 
 .svgs{display: grid; grid-template-columns: repeat(3,40px);}
@@ -236,12 +256,12 @@ margin-top: -270px;
 
 .hero>.cartoon>img{height: 220px; width:200px; margin-left:70px; margin-bottom: 40px;}
 
-.poop{display: none;}
+
 
 .role{margin-left: 10px; margin-top: 20px;}
 
 
-.up{margin-top: 50px; margin-bottom:50px;}
+.main-icon>.up{ display: grid; grid-template-columns: repeat(3,1fr); margin-top: 50px; margin-bottom:50px;}
 
 .mini{display: grid; word-spacing: 10px;}
 
